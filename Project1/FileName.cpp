@@ -3,12 +3,17 @@
 using namespace std;
 
 int main() {
-	//원의 반지름 구하기
-	//반지름 * 반지름 * PIE
-	int r = 5;
-	float s;
-	s = r * r * PIE;
-	cout << "circle  " << s << "." << endl;
+	//auto
+	//자동으로 변환
+
+	auto n = 100;
+	auto x = 1.24;
+	auto y = 3.1e12L;
+
+	cout << n << endl;
+	cout << x << endl;
+	cout << y << endl;
+
 	return 0;
 
 }
