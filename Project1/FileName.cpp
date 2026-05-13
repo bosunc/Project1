@@ -15,7 +15,7 @@ int main() {
 	/*
 	1. 변수는 숫자로 시작할 수 없다.
 	2. C++에서 사용하고 있는 키워드를 변수에 사용할 수 없다. return 같은 애들
-	3. while space를 사용할 수 없다.
+	3. while space를 사용할 수 없다.11
 	*/
 	return 0;
 
