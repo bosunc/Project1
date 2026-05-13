@@ -3,17 +3,11 @@
 using namespace std;
 
 int main() {
-	//auto
-	//자동으로 변환
-
-	auto n = 100;
-	auto x = 1.24;
-	auto y = 3.1e12L;
-
-	cout << n << endl;
-	cout << x << endl;
-	cout << y << endl;
-
+	//array
+	short month[12] = { 1, 2, 3, 4 };
+	cout << month[0] << endl;
+	cout << month[7] << endl;
 	return 0;
+
 
 }
